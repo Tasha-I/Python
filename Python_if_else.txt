@@ -38,5 +38,11 @@ a4 = 50
 resut = a1 > a2     -  выдает Thrue or False
 
 print("Compare", a1, ">", a2)
-print("Result =," result)       
+print("Result =," result)    
+
+=============================
+Операторы and or not  
+
+result2 = a1 > a2 and a1 > a3
+print("AND, OR, NOT --> Result =", result2) 
        
