@@ -35,7 +35,7 @@ a2 = 5
 a3 = 15
 a4 = 50
 
-resut = a1 > a2     -  выдает Thrue or False
+resut = a1 > a2     -  выдает True or False
 
 print("Compare", a1, ">", a2)
 print("Result =," result)    
@@ -46,8 +46,8 @@ print("Result =," result)
 result2 = a1 > a2 and a1 > a3
 print("AND, OR, NOT --> Result =", result2) 
 
-Thrue AND Thrue  => Thrue       
-Thrue AND False  => False
-Thrue OR Thrue  => Thrue       
-Thrue OR False  => Thrue
+True AND True  => True       
+True AND False  => False
+True OR True  => True       
+True OR False  => True
 
