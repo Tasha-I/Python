@@ -45,4 +45,9 @@ print("Result =," result)
 
 result2 = a1 > a2 and a1 > a3
 print("AND, OR, NOT --> Result =", result2) 
-       
+
+Thrue AND Thrue  => Thrue       
+Thrue AND False  => False
+Thrue OR Thrue  => Thrue       
+Thrue OR False  => Thrue
+
