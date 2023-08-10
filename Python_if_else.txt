@@ -5,9 +5,38 @@ c2 = a - b
 c3 = a * b
 c4 = a / b
 c5 = a ** b
+c6 = a % b
+
+c7 = [c1, c2, c3, c4, c5]
 
 print("Result1 =", c1)
 print("Result2 =", c2)
 print("Result3 =", c3)
 print("Result4 =", c4)
 print("Result5 =", c5)
+print("Result6 =", c6)
+
+for i in c7:
+    check = i % 2
+    
+    if check == 0;
+       print("Even = ", i)
+       
+    else:
+       print("Odd = ", i)
+       
+=============================
+
+Операторы сравнения: 
+> < == >= <= !=
+
+a1 = 10
+a2 = 5
+a3 = 15
+a4 = 50
+
+resut = a1 > a2     -  выдает Thrue or False
+
+print("Compare", a1, ">", a2)
+print("Result =," result)       
+       
