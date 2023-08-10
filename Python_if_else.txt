@@ -51,3 +51,31 @@ True AND False  => False
 True OR True  => True       
 True OR False  => True
 
+result2 = a1 > a2 or a1 > a3 and a1 > a4   сначала AND, потом OR!! как скобки в арифметике 
+
+===============================
+Операторы ветвления:
+
+if(True):
+  print('item1')
+  
+if(False):
+  print('item1')
+else:
+  print('item2')  
+  
+  
+if a1 > a2:
+  print(TRUE 'item1')  
+else:
+  print(FALSE 'item2')
+  
+  
+if a1 > 10:
+  print(TRUE 'item1')  
+elif a1 < a2
+  print(TRUE 'item2')
+elif a1 == 10
+  print(TRUE 'item3')    
+else:
+  print(FALSE 'item4')
